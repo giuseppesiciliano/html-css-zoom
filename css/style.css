@@ -85,21 +85,6 @@ footer {
 }
 
 
-
-
-
-
-
-.left-action {
-    display: flex;
-    /* width: 300px; */
-    text-align: center;
-    color: white;
-
-    background-color: chocolate;
-
-}
-
 .btn-action {
     display: flex;
     flex-direction: column;
@@ -114,50 +99,38 @@ footer {
 
 
 
+/* Left Action */
+.left-action {
+    display: flex;
+    text-align: center;
+    color: white;
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Central Action */
 .central-action {
-    height: 50px;
-    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    width: 40%;
+}
 
-    background-color: blue;
+.btn-action .btn-green {
+    color: #4bc800;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Right Action */
 .right-action {
-    height: 50px;
-    width: 200px;
-
-    background-color: brown;
+    height: 90px;
+    padding: 0 30px;
+    color: red;
+    line-height: 90px;
+    background-color: #4a4a4a;
 }
+/* -----------------end FOOTER------------------ */
