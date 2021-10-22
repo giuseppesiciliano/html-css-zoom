@@ -26,7 +26,7 @@ header .view {
     justify-content: flex-end;
 }
 
-.view .button {
+.button {
     font-size: 18px;
     background-color: #4a4a4a;
     padding: 7px;
@@ -39,13 +39,9 @@ header .view {
 
 
 
-
-
-
-
 /* --------------------MAIN--------------------- */
 main {
-    height: calc(100vh - 180px);
+    height: calc(100vh - 160px);
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -70,6 +66,7 @@ main {
     bottom: 0;
     padding: 5px;
 }
+/* ------------------end MAIN------------------- */
 
 
 
@@ -77,9 +74,90 @@ main {
 
 
 
-
+/* -------------------FOOTER-------------------- */
 footer {
-    height: 110px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #222222;
+}
+
+
+
+
+
+
+
+.left-action {
+    display: flex;
+    /* width: 300px; */
+    text-align: center;
+    color: white;
+
+    background-color: chocolate;
+
+}
+
+.btn-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.text-icon {
+    padding-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.central-action {
+    height: 50px;
+    width: 50%;
+
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right-action {
+    height: 50px;
+    width: 200px;
 
     background-color: brown;
 }
