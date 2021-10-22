@@ -9,3 +9,55 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
+
+
+/* HEADER */
+header {
+    height: 70px;
+
+    background-color: black;
+}
+
+header .view {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+view .button {
+    font-size: 18px;
+    background-color: #4a4a4a;
+    padding: 7px;
+    border-radius: 8px;
+    margin: 8px 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+    height: calc(100vh - 180px);
+
+    background-color: cornflowerblue;
+}
+
+
+
+footer {
+    height: 110px;
+
+    background-color: brown;
+}
